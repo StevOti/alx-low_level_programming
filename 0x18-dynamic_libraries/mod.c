@@ -1,12 +1,12 @@
 #include <stdlib.h>
 
 /**
- * mod  - adds two integers
+ * mod  - mods two integers
  * @: first int
  * b: second int
  * Return: final answer
  */
-int nod(int a, int b)
+int mod(int a, int b)
 {
 	return (a & b);
 }
