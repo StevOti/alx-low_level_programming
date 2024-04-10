@@ -1,1 +1,5 @@
-O(n * m)
+Space complexity of allocate_map function:
+- Array of pointers: O(n)
+- 2D array itself: O(n * m)
+
+Combining the above, the overall space complexity is O(n + n * m), which simplifies to O(n * m).
